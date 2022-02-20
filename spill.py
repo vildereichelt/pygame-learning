@@ -22,7 +22,7 @@ while running:
     # running = False
     screen.fill((255, 100, 0))
     ttt = pygame.Rect(0, position, 255, 255)
-    pygame.draw.rect(screen, (140, 120, blue), ttt)
+    pygame.draw.rect(screen, (190, 165, blue), ttt)
     if blue < 255:
         blue = blue + 1
     #else:
